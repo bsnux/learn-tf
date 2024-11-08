@@ -4,7 +4,7 @@ resource "docker_image" "default" {
   keep_locally = false
 }
 
-# Dcker container
+# Docker container
 resource "docker_container" "default" {
   # Image to be used for creating the docker container
   image      = docker_image.default.image_id
