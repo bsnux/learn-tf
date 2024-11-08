@@ -1,3 +1,4 @@
+# Populated values for variables to be printed out when the TF plan is executed
 output "image_name" {
   value = docker_image.default.name
 }

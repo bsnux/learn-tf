@@ -1,3 +1,7 @@
+/*
+* Defining here different variables for the Docker image and container to
+* be created by the module
+*/
 variable "image" {
   description = "Image to start the container from"
   type        = string

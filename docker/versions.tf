@@ -1,3 +1,4 @@
+# Terraform provider to be used by the module
 terraform {
   required_providers {
     docker = {
@@ -6,5 +7,6 @@ terraform {
     }
   }
 
+  # TF version
   required_version = "~> 1.8.1"
 }
